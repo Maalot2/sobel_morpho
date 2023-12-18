@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: SDL install
-      run: sudo apt-get install libsdl2-dev 
+      run: sudo apt-get install libsdl2-dev libsdl2-ttf-dev 
     - name: make
       run: ./CMakeGCC.sh
     - name: execute

@@ -17,4 +17,4 @@ jobs:
     - name: make
       run: ./CMakeGCC.sh
     - name: execute
-      run: ./bin/make/sobel
+      run: ./sobel_morpho/sobel_morpho/bin/make/sobel

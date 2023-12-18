@@ -13,6 +13,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: make
-      run: make
+      run: ./CMakeGCC.sh
     - name: execute
       run: ./sobel

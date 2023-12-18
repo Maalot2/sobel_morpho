@@ -19,4 +19,4 @@ jobs:
     - name: make
       run: cd ./bin/make/ && make && cd ../..
     - name: execute
-      run: ./bin/make/Release/sobel
+      run: cd ./bin/make/Release/ && ./sobel && cd ../../..

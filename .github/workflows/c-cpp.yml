@@ -17,4 +17,4 @@ jobs:
     - name: make
       run: ./CMakeGCC.sh
     - name: execute
-      run: ./sobel
+      run: ./bin/make/release/sobel

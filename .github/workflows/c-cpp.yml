@@ -17,6 +17,6 @@ jobs:
     - name: generate makefile
       run: ./CMakeGCC.sh
     - name: make
-      run: make
+      run: ./bin/make/make
     - name: execute
       run: ./bin/make/Release/sobel
